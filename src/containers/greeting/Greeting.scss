@@ -42,6 +42,19 @@
   text-decoration: none;
 }
 
+.download-link-button .main-button {
+  animation: breathe 3s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
